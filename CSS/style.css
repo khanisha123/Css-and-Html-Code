@@ -1,0 +1,227 @@
+/* p{
+
+    color: darkcyan;
+}
+.Text{
+
+    color: darkblue;
+}
+#test{
+color: darkslateblue;
+
+}
+
+#test1{
+
+    color: darkslategray;
+}
+.Text1{
+
+    color: yellowgreen;
+}
+.test2.test3{
+
+    color: violet;
+}
+*{
+
+    color: slategrey;
+}
+
+p elementini seç hansıki içində intro var
+p.intro{
+
+    color: springgreen;
+}
+
+/* bütün p ləri və span ları seç */
+/* p , span {
+
+    color: tan;
+} */
+
+/* div in içində olan bütün p ləri seçir */
+/* div p{
+
+    color: teal;
+} */
+
+/* divdən sonra gələn bütün p ləri seçir */
+/* div ~ p{
+    
+    color: darkgrey;
+} */
+
+/* o p ni seçirəmki parenti div olsun */
+/* div>p{
+
+    color: goldenrod;
+} */
+
+/* div p {
+
+    color: lightslategrey;
+} */
+
+/* p dən sonrakı bütün ul ləri seç */
+/* p ~ ul{
+
+    background: maroon;
+} */
+
+/* Atributu class olanlar seçiləcək  */
+/* [class]{
+
+    color: slateblue;
+
+} */
+
+/* Values ı test olanın rəngi tamat rəngi olacaq :) */
+/* [class=test]{
+
+    color: tomato;
+} */
+
+/* içində flower olan elementi seçirəm */
+/* [class~=flower]{
+
+    border: 5px solid yellow
+} */
+
+/* sonu td ile bitenleri seçir class=("")- bu hissədə  */
+/* div[class$="td"]{
+
+    background: yellowgreen;
+} */
+
+/* içində test olanları seçir  class=("")- bu hissədə */
+/* div[class*="test"]{
+
+    background: coral;
+
+}
+ */
+/* linkə click etdikdə link arxa plan rəngi dəyişir --------- Önəmlidir */
+/* a:active{
+
+    background: crimson;
+} */
+
+/* yazımızdan sonra bu yazılacaq */
+/* p::after {
+
+    content: Remember this please;
+} */
+
+/* p ni seçirəm hansıki içi boşdur */
+/* p:empty{
+width: 100px;
+height: 20px;
+background-color: crimson;
+
+}
+
+input[type=text]:enabled{
+
+    background-color: darkmagenta;
+}
+input[type=text]:disabled{
+
+    background-color: darkred;
+} */
+
+/* məsələn bodey də birinci olan p ni seçir div də birinci p ni seçir */
+/* p:first-child{
+    
+    background-color: darkturquoise;
+} */
+
+/* Cümlənin ilk sözünün ilk hərifini böyüdür */
+/* p::first-letter{
+    font-size: 200%;
+    color: dodgerblue;
+}  */
+
+/* inputa clicklədik də input xana içi rənglənir
+input:focus{
+
+    background-color: dodgerblue;
+} */
+
+/* input:in-range{
+
+    border: 2 px solid yellowgreen;
+} */
+
+/* bir linkin üzərinə gəldikdə link arxa plan saralır
+a:hover{
+
+    background-color: yellowgreen;
+} */
+
+/* listler de mark rengi deyistirir
+::marker{
+    color: violet;
+} */
+
+/* sonuncunu sececek
+p:nth-last-child(1){
+
+    background-color: blue;
+} */
+
+/* sondan 2 ci ni secir
+p:nth-last-child(2){
+
+    background-color: brown;
+} */
+
+/* nth last-child ın əksi */
+/* p:nth-child(1){
+
+    background-color: cadetblue;
+} */
+
+/* arxa planı bütöv rəngləyir
+:root{
+
+    background: chocolate;
+} */
+/* p{
+    color: rgb(red, green, blue);
+}
+p{
+
+    color:#ff0000
+}
+p{
+
+    color: rgb(1,80,56);
+} */
+/* p{
+    color: rgba(6, 230,129,0.3);
+} */
+
+/* .main{
+
+width: 400px;
+height: 400px;
+background-image: url(../image/for\ css.jpg);
+
+} */
+
+/* body{
+
+    /* background-color: aliceblue;
+    background-image: url(../image/for\ css.jpg);
+    background-repeat: no-repeat; */
+/* } */ 
+/* div{
+    border: 2px dashed black;
+    height: 600px;
+    background-image: url(../image/for\ css.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-size: cover;
+} */
